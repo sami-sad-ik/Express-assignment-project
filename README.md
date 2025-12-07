@@ -11,7 +11,7 @@ This is a backend project built using **Express.js**. It provides APIs for manag
 
 ## ✨ Features
 - RESTful API endpoints for CRUD operations
-- Role-based or user-specific functionality (if applicable)
+- Role-based or user-specific functionality
 - Secure handling of environment variables
 - Easy deployment with Vercel
 
@@ -19,7 +19,7 @@ This is a backend project built using **Express.js**. It provides APIs for manag
 
 ## 🛠 Technology Stack
 - **Backend:** Node.js, Express.js  
-- **Database:** (Add your DB here, e.g., PostgreSQL / MongoDB)  
+- **Database:** PostgreSQL 
 - **Environment Management:** dotenv  
 - **Deployment:** Vercel  
 
