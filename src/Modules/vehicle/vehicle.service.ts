@@ -70,7 +70,6 @@ const deleteVehicleFromDB = async (id: string) => {
     );
   }
 
-  // 2. Safe to delete
   const result = await pool.query(
     `DELETE FROM vehicles WHERE id=$1 RETURNING *`,
     [id]
